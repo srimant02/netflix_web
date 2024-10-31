@@ -7,7 +7,7 @@ export default defineConfig({
 	server: {
 		proxy: {
 			"/api": {
-				target: "https://netflix-web-8gu3.onrender.com",
+				target: "http://localhost:5000",
 			},
 		},
 	},
